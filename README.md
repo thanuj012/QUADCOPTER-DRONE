@@ -21,6 +21,12 @@ The drone is controlled via **Bluetooth** from a smartphone, making it a simple,
 - silicone wires 24 AWG
 - **TB6612fng**
 
+## THRUST CALCULATION
+one 8520 motor gives around 40g of thrust, with 55 mm propeller. so,
+the total weight of the quadcopter must be more or less equal to half the total thrust
+weight =< 4×40/2
+weight=< 80g
+
 ## 💻 Software
 - Arduino IDE 
 
